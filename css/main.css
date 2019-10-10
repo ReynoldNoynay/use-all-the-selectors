@@ -1,76 +1,64 @@
-/* 1 COMPLETE*/
 
 html {
   background-color: #fdf6e3;
-  font-family: Georgia, serif;
-  line-height: 1.5;
 }
-/*2 COMPLETE*/
-.header{
+
+header {
   font-size: 1.5rem;
 }
-.footer {
+
+footer {
   font-size: 1.5rem;
 }
-/*3 COMPLETE*/
+
 nav ul {
   font-family: sans-serif;
 }
-/*4 COMPLETE*/
+
 .logo {
   text-transform: uppercase;
 }
-/*5 Complete*/
-.wrapper{
- background-color: #eee8d5;
+
+.wrapper {
+  background-color: #eee8d5;
 }
-/*6 COMPLETED*/
+
 h2 {
   color: #93a1a1;
 }
-/*7 How Do I select on id facts only */
-dfn h2 + P {
+
+.wrapper > .dfn {
   background-color: #b58900;
 }
-/*8 COMPLETED*/
 
-.dfn p + strong{
+.dfn p + strong {
   color: #fff;
 }
-/*9 COMPLETED*/
-header ul li:nth-child(1){
-    background-color: #719e07
-}
-header ul li:nth-child(3){
-    background-color: #719e07
-}
-header ul li:nth-child(4){
-    background-color: #719e07
+
+a:not(.no-highlight) {
+  background-color: #719e07;
 }
 
-/*10 Completed"*/
-ul li:nth-child(3){
+[rel="external"] {
   background-color: #2694d8;
 }
-/*11 COMPLETED*/
 
-ol li:nth-child(1){
-   color: #719e47;
-  }
+ol li:nth-child(1) {
+  color: #719e47;
+}
 
-/*12 COMEPLTED*/
-ol li:nth-child(3){
+ol li:nth-child(3) {
   color: #2aa198;
 }
 
-/*13 14 15 COMPLETE*/
-
 .types li:nth-child(odd) {
-background-color:#657ba3;
+  background-color: #657ba3;
 }
-.types li:nth-child(even){
-  background-color:#586e75;
+
+.types li:nth-child(even) {
+  background-color: #586e75;
 }
-.types li:nth-child(3n){
-  background-color:#d04b16;
+
+.types li:nth-child(3n) {
+  background-color: #d04b16;
 }
